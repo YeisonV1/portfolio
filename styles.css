@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: gray;
+}
