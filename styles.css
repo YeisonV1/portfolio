@@ -1,8 +1,74 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
 body{
-    background-color: black;
+    background-color: gray;
 }
 .container{
-    width: 800px;
-    height: 600px;
+    
+}
+
+.intro-box{     /* SECTION*/
+    background-color: white;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.name,
+.profile-pic{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.profile-pic{
+
+}
+
+.about-me{      /* SECTION*/
+    background-color: white;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.title{
     background-color: gray;
+    
+    font-size: 57px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0 0;
+}
+
+.skills{        /* SECTION*/
+    background-color: white;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.skill-list{
+    
+    
+    width: 400px;
+    height: 400px;
+    
+}
+
+.projects{      /* SECTION*/
+    background-color: white;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.contact-me{        /* SECTION*/
+    background-color: white;
+    height: 800px;
+    margin-top: 10px;
 }
