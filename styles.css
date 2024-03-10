@@ -1,74 +1,31 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: gray;
-}
-.container{
-    
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.intro-box{     /* SECTION*/
-    background-color: white;
-    height: 800px;
+html{
+    scroll-behavior: smooth;
+}
+
+section,
+.nav-lists{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
 }
 
-.name,
-.profile-pic{
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+section{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
 }
 
-.profile-pic{
-
-}
-
-.about-me{      /* SECTION*/
-    background-color: white;
-    height: 800px;
-    margin-top: 10px;
-}
-
-.title{
-    background-color: gray;
-    
-    font-size: 57px;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    text-transform: uppercase;
-    padding: 5px;
-    margin: 0 0;
-}
-
-.skills{        /* SECTION*/
-    background-color: white;
-    height: 800px;
-    margin-top: 10px;
-}
-
-.skill-list{
-    
-    
-    width: 400px;
-    height: 400px;
-    
-}
-
-.projects{      /* SECTION*/
-    background-color: white;
-    height: 800px;
-    margin-top: 10px;
-}
-
-.contact-me{        /* SECTION*/
-    background-color: white;
-    height: 800px;
-    margin-top: 10px;
+.nav-lists{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
 }
