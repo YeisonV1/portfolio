@@ -6,20 +6,24 @@
 html {
     scroll-behavior: smooth;
 }
-
-nav, 
-.nav-links li {
-    display: flex;
+body{
+    background-color: rgb(63, 63, 63);
 }
 
-nav {
+nav, 
+.nav-links ul {
+    display: flex;
     justify-content: space-around;
+}
+
+
+nav {
     align-items: center;
     height: 17vh;
 }
 
-.nav-links li {
-    flex-direction: column;
+.nav-links ul {
+    gap: 20px;
     list-style: none;
     font-size: 1.5rem;
 }
@@ -41,4 +45,37 @@ a:hover{
 
 .name:hover{
     cursor: default;
+}
+
+.section-profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.profile-pic {
+    
+    
+}
+img{
+    box-shadow: 0 0 12px 12px  rgb(35, 128, 248, .4);
+    border: 1px solid blue;
+    width: 430px;
+    height: 425px;
+    border-radius: 50%;
+}
+
+.title-text{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-title{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 900;
 }
