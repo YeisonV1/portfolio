@@ -58,6 +58,7 @@ a:hover{
     
 }
 img{
+    display: block;
     box-shadow: 0 0 12px 12px  rgb(35, 128, 248, .4);
     border: 1px solid blue;
     width: 330px;
