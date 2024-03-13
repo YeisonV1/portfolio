@@ -8,7 +8,7 @@ html {
 }
 body{
     font-family: "Russo One", sans-serif;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(35, 35, 35);
 }
 
 nav, 
@@ -18,7 +18,7 @@ nav,
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-    gap: 0 3rem;
+    gap: 1rem 3rem;
 }
 
 
@@ -27,9 +27,8 @@ nav {
 }
 
 .nav-links ul {
-    gap: 34px;
     list-style: none;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 a{
@@ -39,15 +38,16 @@ a{
 
 a:hover{
     color: black;
-    text-decoration: underline;
+    text-decoration: wavy underline rgb(255, 154, 171);
+    text-underline-offset: 1rem;
     text-shadow: 0px 4px 16px white;
     
 }
 
 .name{
-    font-size: 45px;
-    color: #3f3f3f;
-    text-shadow: 0px 1px 12px white;
+    font-size: 70px;
+    color: #232323;
+    text-shadow: 0px 11px 15px white;
 }
 
 .name:hover{
@@ -56,50 +56,50 @@ a:hover{
 
 .section-profile{
     display: flex;
-    padding-top: 70px;
+    padding-top: 85px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
-.profile-pic {
-    padding-top: 45px;
-    padding-right: 80px;
-    
-}
+
+            /*IMG*/
+
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
+  
 img{
-<<<<<<< HEAD
-    display: block;
-=======
-    display: grid;
->>>>>>> 820ea57ca6136d7e0f2cba5410cf3eae02074aaa
-    box-shadow: 0 0 12px 12px  rgb(35, 128, 248, .4);
-    border: 1px solid blue;
-    width: 330px;
-    height: 325px;
+    box-shadow: 1px 1px 20px 10px rgb(161 156 156 / 40%);
+    border: 0.5px solid #000000;
     border-radius: 50%;
+    width: 400px;
+    margin: 35px;
 }
 
 .title-text{
-    position: relative;
-    display: flex;
+        /* position: relative; */
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
-    padding-top: 20px;
-    padding-left: 40px;
+    /* padding-top: 20px; */
+    /* padding-left: 40px; */
     text-shadow: 0px 1px 4px;
 }
 
+.hi-title{
+    font-size: 90px;
+    color: #0cd0f4;
+}
+
 .title{
-    font-size: 103px;
+    font-size: 180px;
     color: white;
 }
 .sub-title{
-    font-size: 45px;
+    font-size: 60px;
     color: #fe65ce;
-}
-.hi-title{
-        font-size: 70px;
-        color: #0cd0f4;
 }
