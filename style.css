@@ -17,8 +17,8 @@ nav,
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
-    gap: 1rem 3rem;
+    height: 12vh;
+    gap: .5rem 3rem;
 }
 
 
@@ -47,16 +47,22 @@ a:hover{
 .name{
     font-size: 70px;
     color: #232323;
-    text-shadow: 0px 11px 15px white;
+    text-shadow: 0px 2px 8px white;
+    padding-top: 10px;
 }
 
-.name:hover{
+.name,
+.about-section h2,
+.experience-section h2,
+.projects-section h2,
+.contact-section h2,
+footer:hover{
     cursor: default;
 }
 
 .section-profile{
     display: flex;
-    padding-top: 85px;
+    padding-top: 80px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -102,4 +108,79 @@ img{
 .sub-title{
     font-size: 60px;
     color: #fe65ce;
+}
+
+        
+
+
+                /*Sections*/
+.about-section,
+.experience-section,
+.projects-section,
+.contact-section{
+    border-radius: 10px;
+    /* border: 13px solid #232323; */
+    margin: 10px;
+}
+
+
+
+.about-section h2,
+.experience-section h2,
+.projects-section h2,
+.contact-section h2{
+    color: #232323;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 9px;
+}
+
+/* .about-section h2,
+.experience-section h2,
+.projects-section h2,
+.contact-section h2:hover{
+    cursor: default;
+} */
+
+.about-section{
+    background-color: white;
+    height: 200px;
+}
+
+.experience-section{
+    background-color: lightgray;
+    height: 200px;
+}
+
+.projects-section{
+    background-color: white;
+    height: 200px;
+}
+
+.contact-section{
+    background-color: lightgray;
+    height: 200px;
+}
+
+.contact-section ul{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer{
+    height: 200px;
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
